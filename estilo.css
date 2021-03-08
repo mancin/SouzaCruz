@@ -231,10 +231,21 @@ footer{
     color: white;
 }
 
-@media(max-width: 567px){
+@media (max-width: 567px){
+
+    header{
+        display: block;
+        text-align: center;
+        height: 90px;
+    }
+
+    ul{
+        justify-content: center;
+    }
 
     .logo{
-        width: 170px;
+        width: 150px;
+        margin-bottom: 8px;
     }
 
     .imagens{
@@ -242,13 +253,13 @@ footer{
     }
     
     #conteudo1 img{
-        width: 230px;
-        height: 200px;
+        width: 150px;
+        height: 120px;
     }
 
     #conteudo1{
         margin: 0 auto;
-        width: 450px;
+        width: 320px;
         height: 330px;
     }
     
@@ -260,16 +271,16 @@ footer{
     }
     
     .txtCont1 h1{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     
     .txtCont1 p{
         font-size: 1em;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .saibamais{
-        padding:10px 30px;
+        padding:8px 30px;
         margin-right: 10px;
     }.saibamais:hover{
         background-color: #0174df;
@@ -311,7 +322,7 @@ footer{
 
     video{
         margin-bottom: 30px;
-        width: 450px;
+        width: 300px;
     }
 
     .contato{
