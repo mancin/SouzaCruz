@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #0174df;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.menu a{
+    color:#0174df;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+}.menu a:hover{
+    background-color: #0174df;
+    color: white;
+    border-radius: 5px;
+    transition: .2s;
+
+}
+
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.imagens{
+    display: flex;
+    margin-top: 20px;
+}
+
+.imagens img{
+   width: 302px;
+   height: 227px;
+   margin-right: 10px;
+   border-radius: 5px;
+}
+
+
+#conteudo1{
+    margin: 10px auto;
+    width: 800px;
+    height: 450px;
+}
+
+.containerCont1{
+   display: flex;
+}
+
+.txtCont1{
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.txtCont1 h1{
+    color: #0174df;
+    text-transform: uppercase;
+
+}
+
+.txtCont1 p{
+    margin-top: 10px;
+    color: rgb(116, 116, 116);
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.conteudo2{
+    width: 100%;
+    height: 550px;
+    background-color: #0174df;
+    text-align: center;
+}
+
+.conteudo2 h1{
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+.vantagens{
+    display: flex;
+}
+
+
+.v1{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 20px;
+}.v1:hover{
+    transform: scale(1.2);
+    transition: .2s;
+    border: 1px solid #008CBA;
+    cursor: default;
+}
+.v1 h2{
+    margin-bottom: 10px;
+    color: #008CBA;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #008bba6e;
+}
+
+.v1 p{
+    color: rgb(116, 116, 116);
+    text-align: justify;
+}
+
+.imgv1{  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid rgba(116, 116, 116, 0.788);
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin: 10px auto;
+}
+
+.saibamais{
+    background-color:#0174dfb9;
+    color: white;
+    padding:15px 20px 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}.saibamais:hover{
+    background-color: #0174df;
+}
+
+
+.conteudo3{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+.conteudo3 h1{
+    color: rgb(78, 78, 78);
+}
+
+.sobrenos{
+    display: flex;
+    margin: 20px auto;
+}
+
+.sobrenos p{
+    color: rgb(116, 116, 116);
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.sobrenos h2{
+    color: rgb(78, 78, 78);
+}
+
+.textSobre p{
+    text-align: justify;
+}
+
+video{
+    border-radius: 5px;
+}
+video:focus{
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.contato{
+    width: 100%;
+    height: 280px;
+    background-color: #0174df;
+}
+
+.contato a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color:#2db93dc5;
+    border-radius: 5px;
+}
+
+.contato a:hover{
+    background-color:#17c02b;
+}
+
+.contato p{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.contato h1{
+    padding-top: 15px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #fc8200;
+    color: white;
+}
+
+@media(max-width: 667px){
+
+    .logo{
+        width: 170px;
+    }
+
+    .imagens{
+        display: none;
+    }
+    
+    #conteudo1 img{
+        width: 230px;
+        height: 200px;
+    }
+
+    #conteudo1{
+        margin: 0 auto;
+        width: 450px;
+        height: 330px;
+    }
+    
+    .txtCont1{
+        width: 600px;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+    
+    .txtCont1 h1{
+        font-size: 1.5em;
+    }
+    
+    .txtCont1 p{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .saibamais{
+        padding:10px 30px;
+        margin-right: 10px;
+    }.saibamais:hover{
+        background-color: #0174df;
+    }
+
+    .conteudo2{
+        width: 100%;
+        height: 1900px;
+    }
+    
+    .conteudo2 h1{
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .vantagens{
+        display: block;
+    }
+    
+    .v1{
+        width: 280px;
+        height: 400px;
+        margin: 10px auto;
+    }.v1:hover{
+        transform: none;
+        transition: none;
+        border: none
+    }
+    
+    .conteudo3{
+        width: 100%;
+        height: auto;
+    }
+
+    .conteudo3 img{
+        width: 50%;
+    }
+
+    video{
+        margin-bottom: 30px;
+        width: 450px;
+    }
+
+    .contato{
+        height: 240px;
+    }
+    
+    .contato p{
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+    
+    .contato h1{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+}
