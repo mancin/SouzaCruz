@@ -253,8 +253,7 @@ footer{
     }
     
     #conteudo1 img{
-        width: 150px;
-        height: 120px;
+        display: none;
     }
 
     #conteudo1{
@@ -266,7 +265,7 @@ footer{
     .txtCont1{
         width: 600px;
         height: 300px;
-        margin-left: 30px;
+        margin-left: 0;
         margin-top: -30px;
     }
     
